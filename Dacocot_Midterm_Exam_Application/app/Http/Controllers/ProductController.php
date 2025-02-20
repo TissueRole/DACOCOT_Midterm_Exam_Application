@@ -16,6 +16,6 @@ class ProductController extends Controller
             ['title' => 'The Godfather', 'director' => 'Francis Ford Coppola', 'year' => 1972],
         ];
 
-        return view('products.index', compact('movies'));
+        return view('index', compact('movies'));
     }
 }
